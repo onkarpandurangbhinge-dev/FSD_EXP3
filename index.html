@@ -20,6 +20,18 @@
 
 <body>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Onkar Bhinge | Portfolio</title>
+</head>
+
+<body>
+
     <!-- Header -->
     <header>
         <h1>Onkar Bhinge</h1>
@@ -27,15 +39,17 @@
     </header>
 
 
-    <!-- Navigation -->
+    <!-- Navigation Links -->
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#achievements">Achievements</a>
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#achievements">Achievements</a> |
         <a href="#contact">Contact</a>
     </nav>
+
+    <hr>
 
 
     <!-- Home Section -->
@@ -53,6 +67,8 @@
         </p>
     </section>
 
+    <hr>
+
 
     <!-- About Section -->
     <section id="about">
@@ -64,11 +80,15 @@
         </p>
     </section>
 
+    <hr>
+
 
     <!-- Skills Section -->
     <section id="skills">
+
         <h2>My Skills</h2>
 
+        <!-- Skills List -->
         <ul>
             <li>C</li>
             <li>C++</li>
@@ -80,11 +100,63 @@
             <li>Artificial Intelligence</li>
             <li>Machine Learning</li>
         </ul>
+
+
+        <!-- Skills Table -->
+        <h2>Skills Proficiency Table</h2>
+
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Skill</th>
+                <th>Category</th>
+                <th>Level</th>
+            </tr>
+
+            <tr>
+                <td>C</td>
+                <td>Programming</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>C++</td>
+                <td>Programming</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>Programming</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>HTML</td>
+                <td>Web Development</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>SQL</td>
+                <td>Database</td>
+                <td>Beginner</td>
+            </tr>
+
+            <tr>
+                <td>Machine Learning</td>
+                <td>AI</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+
     </section>
+
+    <hr>
 
 
     <!-- Projects Section -->
     <section id="projects">
+
         <h2>My Projects</h2>
 
         <article>
@@ -101,11 +173,15 @@
             <h3>Personal Portfolio Website</h3>
             <p>A website showcasing my skills, projects, and achievements.</p>
         </article>
+
     </section>
+
+    <hr>
 
 
     <!-- Achievements Section -->
     <section id="achievements">
+
         <h2>Achievements & Certificates</h2>
 
         <ul>
@@ -116,35 +192,127 @@
             <li>Design Thinking Project</li>
             <li>ACE Project</li>
         </ul>
+
     </section>
+
+    <hr>
 
 
     <!-- Contact Section -->
     <section id="contact">
+
         <h2>Contact Me</h2>
 
-        <p>Email: your-email@example.com</p>
-
+        <!-- External Links -->
         <p>
             GitHub:
-            <a href="https://github.com/onkarpandurangbhinge-dev">
+            <a href="https://github.com/onkarpandurangbhinge-dev/FSD_EXP3.git"
+               target="_blank">
                 Visit My GitHub
             </a>
         </p>
 
         <p>
             LinkedIn:
-            <a href="#">Visit My LinkedIn</a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                Visit My LinkedIn
+            </a>
         </p>
+
+        <p>
+            Email:
+            <a href="mailto:your-email@example.com">
+                Send Me an Email
+            </a>
+        </p>
+
+
+        <!-- Contact Form -->
+        <h2>Send Me a Message</h2>
+
+        <form>
+
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <br><br>
+
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <br><br>
+
+
+            <!-- Subject -->
+            <label for="subject">Subject:</label>
+            <br>
+            <input type="text" id="subject" name="subject"
+                   placeholder="Enter subject">
+
+            <br><br>
+
+
+            <!-- Message -->
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="message"
+                      rows="5" cols="30"
+                      placeholder="Write your message here"></textarea>
+
+            <br><br>
+
+
+            <!-- Project Interest -->
+            <label>Interested In:</label>
+            <br>
+
+            <input type="checkbox" id="ai" name="interest" value="AI">
+            <label for="ai">Artificial Intelligence</label>
+
+            <br>
+
+            <input type="checkbox" id="web" name="interest"
+                   value="Web Development">
+            <label for="web">Web Development</label>
+
+            <br>
+
+            <input type="checkbox" id="ml" name="interest"
+                   value="Machine Learning">
+            <label for="ml">Machine Learning</label>
+
+            <br><br>
+
+
+            <!-- Submit Button -->
+            <input type="submit" value="Send Message">
+            <input type="reset" value="Reset">
+
+        </form>
+
     </section>
+
+    <hr>
 
 
     <!-- Footer -->
     <footer>
         <p>© 2026 Onkar Bhinge | My Portfolio</p>
+
+        <p>
+            <a href="#home">Back to Top ↑</a>
+        </p>
     </footer>
 
 </body>
+
 </html>
 ```
 
